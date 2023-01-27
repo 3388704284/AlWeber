@@ -1,0 +1,63 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run -d edge --web-port=8080 --web-hostname=127.0.0.1
+
+## exception
+
+HttpException: HttpException: Connection closed before full header was received, uri = http://localhost:3555/devtools/page/7EFDA446A34E554173530F697AA65D15
+
+```
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, 3.7.0, on Microsoft Windows [版本 10.0.22621.1105], locale zh-CN)
+    [32m•[39m Flutter version 3.7.0 on channel stable at D:\flutter\flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision b06b8b2710 (4 days ago), 2023-01-23 16:55:55 -0800
+    [32m•[39m Engine revision b24591ed32
+    [32m•[39m Dart version 2.19.0
+    [32m•[39m DevTools version 2.20.1
+    [32m•[39m Pub download mirror https://mirrors.tuna.tsinghua.edu.cn/dart-pub
+    [32m•[39m Flutter download mirror https://mirrors.tuna.tsinghua.edu.cn/flutter
+
+[31m[✗][39m Windows Version (Unable to confirm if installed Windows version is 10 or greater)
+
+[33m[!][39m Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+    [32m•[39m Android SDK at C:\Users\33887\AppData\Local\Android\Sdk
+    [32m•[39m Platform android-31, build-tools 30.0.3
+    [32m•[39m ANDROID_HOME = C:\Users\33887\AppData\Local\Android\Sdk
+    [32m•[39m Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    [31m✗[39m Cannot execute C:\Program Files\Android\Android Studio\jre\bin\java to determine the version
+
+[32m[✓][39m Chrome - develop for the web
+    [32m•[39m Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[32m[✓][39m Visual Studio - develop for Windows (Visual Studio Community 2022 17.3.0)
+    [32m•[39m Visual Studio at C:\Program Files\Microsoft Visual Studio\2022\Community
+    [32m•[39m Visual Studio Community 2022 version 17.3.32804.467
+    [32m•[39m Windows 10 SDK version 10.0.19041.0
+
+[33m[!][39m Android Studio (version 2022.1)
+    [32m•[39m Android Studio at C:\Program Files\Android\Android Studio
+    [32m•[39m Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    [32m•[39m Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    [31m✗[39m Unable to find bundled Java version.
+    [32m•[39m Try updating or re-installing Android Studio.
+
+[32m[✓][39m Connected device (3 available)
+    [32m•[39m Windows (desktop) • windows • windows-x64    • Microsoft Windows [版本 10.0.22621.1105]
+    [32m•[39m Chrome (web)      • chrome  • web-javascript • Google Chrome 109.0.5414.120
+    [32m•[39m Edge (web)        • edge    • web-javascript • Microsoft Edge 109.0.1518.69
+
+[32m[✓][39m HTTP Host Availability
+    [32m•[39m All required HTTP hosts are available
+
+[33m![39m Doctor found issues in 3 categories.
+```
